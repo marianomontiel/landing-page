@@ -91,14 +91,14 @@ img {
     align-items: center;
     margin: 30px;
     text-align: center;
-    max-width: 125px;
+    max-width: 250px;
     }
 
 .items > img {
     border: 2px solid #3882F6;
     border-radius: 10px;
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
 }
 
 .item-title {
@@ -120,7 +120,7 @@ img {
 
 .quote > h2 {
     text-align: center;
-    max-width: 600px;
+    max-width: 800px;
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
