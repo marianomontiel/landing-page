@@ -27,6 +27,7 @@ body {
 
 .top {
     flex-wrap: nowrap;
+    flex-direction: column;
     justify-content: center;
     padding: 50px 50px;
     gap: 20px;
@@ -41,9 +42,10 @@ button {
     border-radius: 5px;
 }
 
-.top-text > button {
+.top > button {
     border: none;
     margin: 20px 0px 0 0;
+    width: fit-content;
 }
 
 img {
@@ -54,7 +56,7 @@ img {
 .top-text {
     display: flex;
     flex-direction: column;
-    max-width: 350px;
+    max-width: 700px;
 }
 
 .top-text > h1 {
@@ -112,7 +114,7 @@ img {
 
 .quote > h2 {
     text-align: center;
-    max-width: 550px;
+    max-width: 600px;
     font-size: 36px;
     font-style: italic;
     font-weight: 100;
