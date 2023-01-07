@@ -62,14 +62,14 @@ img {
 .top-text {
     display: flex;
     flex-direction: column;
-    max-width: 700px;
+    max-width: 900px;
 }
 
 .top-text > h1 {
     font-size: 48px;
     font-weight: bold;
     color: #F9FAF8;
-    margin: 0;
+    margin: 10px 0px;
 }
 
 .top-text > p {
